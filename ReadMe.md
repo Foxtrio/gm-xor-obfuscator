@@ -56,7 +56,8 @@ var information = {
 var packed = xor_encrypt(json_stringify(information), "yourEncryptionKey");
 var original = xor_decrypt(packed, "yourEncryptionKey");
 
-show_debug_message(original.PlayerGold);
+var decodedStruct = json_parse(original);
+show_debug_message(decodedStruct.PlayerGold);
 ```
 ---
 
