@@ -1,4 +1,4 @@
-# 🔐 GM-XORCrypt
+# 🔐 GM-XOR Obfuscator
 
 > **Simple string obfuscation for GameMaker save data.**
 
